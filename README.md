@@ -1,4 +1,4 @@
-# trial
+# newnew
 
 A static site exported from Smart Journal. Plain HTML — no build step, no JavaScript.
 
