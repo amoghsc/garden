@@ -105,4 +105,6 @@ input[type=search]::-webkit-search-cancel-button { display: none; }
   .work.side-open .side-col { transform: none; box-shadow: 8px 0 24px rgba(0,0,0,0.2); }
   .work.side-open .scrim { display: block; position: absolute; inset: 0; z-index: 20; background: rgba(0,0,0,0.25); }
 }
+.muted { color: var(--muted); }
+.vault-list li { margin-bottom: 0.6em; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
