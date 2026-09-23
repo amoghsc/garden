@@ -40,7 +40,8 @@ input[type=search]::-webkit-search-cancel-button { display: none; }
 .side-head { flex: none; display: flex; align-items: center; gap: 2px; padding: 6px 6px 6px 12px; height: 42px; }
 .side-head .spacer { flex: 1; }
 .side-head input { flex: 1; min-width: 0; font-size: 14px; }
-.searching .seg, .searching .spacer { display: none; }
+.side-title { flex: 1; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.searching .side-title { display: none; }
 .seg { display: inline-flex; gap: 1px; background: var(--bg3); border-radius: 6px; padding: 2px; }
 .seg button { width: 28px; height: 24px; border-radius: 4px; display: grid; place-items: center; color: var(--muted); }
 .seg button.on { background: var(--bg); color: var(--fg); box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
